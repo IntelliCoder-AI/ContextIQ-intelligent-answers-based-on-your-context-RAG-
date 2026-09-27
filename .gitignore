@@ -1,0 +1,28 @@
+# Node
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+ENV/
+.venv/
+
+# FAISS / uploads storage
+backend/data/documents/*
+!backend/data/documents/.gitkeep
+backend/data/faiss_index/*
+!backend/data/faiss_index/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
